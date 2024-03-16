@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(11.375, 11.375, 101.25, 0.78125);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.heading {
+  color: #fff;
+  text-shadow: 2.5625px 2.5625px 25.625px #fff;
+  font-size: 43.75px;
+  letter-spacing: 1.125px;
+}
+.container {
+  background-color: #fff;
+  opacity: 0.875;
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22.5px;
+}
+.main {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}
+.main > input {
+  border: none;
+  outline: none;
+  font-size: 21.0625px;
+  font-style: italic;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22.5px;
+}
+.double {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+.form-spending,
+.form-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+input {
+  border: 2px solid rgba(127.5 127.5, 127.5, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f9f9f9f9;
+}
+.btn {
+  background-color: rgba(127.5, 127.5, 127.5, 0.5);
+  color: #fff;
+  border-radius: 25%;
+  padding: 13.75px 20.625px;
+  border: none;
+  cursor: pointer;
+  font-size: 17.375px;
+}
+.btn:hover {
+  scale: 0.95;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.form-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.total {
+  background-color: rgba(127.5, 127.5, 127.5, 0.5);
+  color: #fff;
+  padding: 10.625px, 21.25px;
+  border-radius: 10px;
+  font-size: 21.25px;
+}
+.total span {
+  color: rgb(255, 255, 255);
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  overflow: auto;
+}
+.spending {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  box-shadow: rgb(40, 60, 90) -5px 30px 30px -5px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.buttons img {
+  width: 50px;
+  height: 50px;
+}
+.buttons img:nth-child(2) {
+  width: 45px;
+  height: 45px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 21.25px;
+}
+.spending h2:nth-child(2) {
+  color: rgba(255, 127.5, 127.5, 0.5);
+}
+.payed {
+  opacity: 0.625;
+}
+.payed h2:nth-child(1) {
+  text-decoration: line-through;
+}
+.payed h2:nth-child(2) {
+  color: rgba(127.5, 255, 127.5, 0.5);
+}
